@@ -45,7 +45,7 @@ h1 {
 }
 
 section {
-  border: solid 3px;
+  border: solid 1px;
   background-color: #3498db;
 
   margin-right: 10px;
@@ -65,14 +65,14 @@ section {
 }
 
 section > h4 {
-  border: solid 3px;
+  border: solid 1px;
 
   position:absolute;
   top:0;
   right:0;
 
-  margin-right:-3px;
-  margin-top:-3px;
+  margin-right:-1px;
+  margin-top:-1px;
 
   font-size: 1.25em;
 }
