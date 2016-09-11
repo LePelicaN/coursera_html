@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 /* Simple Responsive Framework. */
@@ -131,4 +133,17 @@
   .col-xs-12 {
     width: 100%;
   }
+}
+
+section {
+  border: solid 3px blue;
+  position:relative;
+  padding-top: 30px;
+}
+
+section > h4 {
+  border: solid 3px red;
+  position:absolute;
+  top:0;
+  right:0;
 }
