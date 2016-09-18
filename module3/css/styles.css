@@ -52,8 +52,17 @@ body {
   padding-top: 150px;
 }
 
+#main-content {
+  padding: 10px 50px 10px;
+}
+
 #main-page-title {
   font-weight: bold;
   padding-bottom: 15px;
 }
+
+#main-content section {
+  background-color: #f39c12;
+}
+
 /* END BODY */
